@@ -111,25 +111,7 @@ Install the required libraries:
 ```bash
 pip install pandas scikit-learn
 
-## Dataset and License
 
-This project uses the Movie Recommendation System dataset
-available on Kaggle.
-
-**Dataset Source:**
-Kaggle - Movie Recommendation System by Manas Parashar
-
-**Original Dataset:** MovieLens
-
-**Kaggle Dataset:**
-https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system
-
-### License
-
-The database is provided under the Open Database License (ODbL).
-
-Database: Open Database
-Contents: © Original Authors
 
 The dataset is used for educational and project demonstration
 purposes in this AI recommendation system.
