@@ -52,6 +52,35 @@ Example genres:
 - Animation
 - Fantasy
 
+## Dataset and License
+
+This project uses the Movie Recommendation System dataset
+available on Kaggle.
+
+**Dataset Source:**
+
+Kaggle - Movie Recommendation System by Manas Parashar
+
+**Original Dataset:** MovieLens
+
+**Kaggle Dataset:**
+
+https://www.kaggle.com/datasets/parasharmanas/movie-recommendation-system
+
+### License
+
+The database is provided under the Open Database License (ODbL).
+
+**Database:** Open Database  
+**Contents:** © Original Authors
+
+The dataset is used for educational and project demonstration
+purposes in this AI recommendation system.
+
+**License:**
+
+https://opendatacommons.org/licenses/odbl/1-0/
+
 ## Algorithm Used
 
 ### TF-IDF
@@ -67,55 +96,6 @@ and calculates how similar they are.
 Movies with higher similarity scores are ranked higher in the
 recommendation list.
 
-## How the Project Works
+##
 
-The project follows these steps:
-
-1. Load the movie dataset.
-2. Process the movie genres.
-3. Convert genres into numerical vectors using TF-IDF.
-4. Take the user's preferred genre as input.
-5. Convert the user preference into a TF-IDF vector.
-6. Calculate Cosine Similarity.
-7. Sort movies according to similarity score.
-8. Display the top 10 recommended movies.
-
-## Project Flow
-
-User Input
-↓
-Preference Processing
-↓
-TF-IDF Vectorization
-↓
-Cosine Similarity
-↓
-Similarity Score
-↓
-Ranking
-↓
-Top 10 Movie Recommendations
-
-## Technologies Used
-
-- Python
-- Pandas
-- Scikit-learn
-- TF-IDF Vectorizer
-- Cosine Similarity
-
-## Installation
-
-Install the required libraries:
-
-```bash
-pip install pandas scikit-learn
-
-
-
-The dataset is used for educational and project demonstration
-purposes in this AI recommendation system.
-
-License:
-https://opendatacommons.org/licenses/odbl/1-0/
 
